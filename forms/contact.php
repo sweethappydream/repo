@@ -17,12 +17,12 @@
   $contact->subject = $_POST['subject'];
 
 
-  $contact->smtp = array(
-    'host' => 'gator3209.hostgator.com',
-    'username' => 'abelpeterson.dream@gmail.com',
-    'password' => 'weilai!@#$',
-    'port' => '587'
-  );
+  // $contact->smtp = array(
+  //   'host' => 'gator3209.hostgator.com',
+  //   'username' => 'abelpeterson.dream@gmail.com',
+  //   'password' => 'weilai!@#$',
+  //   'port' => '587'
+  // );
   
 
   $contact->add_message( $_POST['name'], 'From');
